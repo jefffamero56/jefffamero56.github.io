@@ -1,0 +1,39 @@
+
+body{
+    padding: 10px 50px;
+    background-color: gray;
+}
+h1{
+    font-size: 48px;
+}
+.hdr_left_panel{
+    width: calc(70% - 5px);
+}
+.hdr_right_panel{
+    width: calc(30% - 5px);
+    text-align: end;
+}
+.header{
+    line-height: 50%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headDivider{
+    margin: 2px;
+}
+.left_panel{
+    width: calc(20% - 5px); 
+    text-align: start;
+    font-weight: bold;
+    font-size: 16px;
+}
+.right_panel{
+    width: calc(80% - 5px); 
+    text-align: start;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.divider {
+    width: 5px; 
+}
